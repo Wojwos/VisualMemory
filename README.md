@@ -32,14 +32,14 @@ Podstawowe elementy jakie muszą znaleźć się w układzie:
 
 ### Specyfikacja wewnętrzna urządzenia.
 **Schemat blokowy i ideowy urządzenia**
-![schemat-blokowy](https://github.com/Wojwos/VisualMemory/main/img/schemat-blokowy.jpg?raw=true)
-![schemat-ideowy](https://github.com/Wojwos/VisualMemory/main/img/schematic.jpg?raw=true)
+![schemat-blokowy](https://github.com/Wojwos/VisualMemory/img/schemat-blokowy.jpg?raw=true)
+![schemat-ideowy](https://github.com/Wojwos/VisualMemory/img/schematic.jpg?raw=true)
 
 **Opis funkcji poszczególnych bloków układu, szczegółowy opis działania ważniejszych elementów układu**
 Klawiatura matrycowa składa się z 36 przycisków, do każdego przycisku przyporządkowana dioda LED. Klawiatura podłączona do reszty urządzenia z wyświetlaczem LCD, na którym wyświetlone są wszystkie informacje.
 
 **Schemat montażowy obejmujący projekt płytki drukowanej, rozmieszczenie elementów na płytce oraz rozmieszczenie elementów urządzenia w obudowie**
-![schemat-montazowy](https://github.com/Wojwos/VisualMemory/main/img/board.jpg?raw=true)
+![schemat-montazowy](https://github.com/Wojwos/VisualMemory/img/board.jpg?raw=true)
 **Lista elementów:**
 Elementy na płytce PCB:
 - Atmega328P-PU
@@ -55,7 +55,7 @@ Elementy poza płytką (umieszczone na perfboardzie):
 - 72x LED WS2812B
 
 **Algorytm oprogramowania urządzenia, w tym schemat blokowy**
-![algorytm](https://github.com/Wojwos/VisualMemory/main/img/algorytm.jpg?raw=true)
+![algorytm](https://github.com/Wojwos/VisualMemory/img/algorytm.jpg?raw=true)
 ### Specyfikacja zewnętrzna urządzenia:
 **Opis funkcji elementów sterujących urządzeniem**
 Urządzeniem sterujemy wyłącznie za pomocą przycisków według instrukcji wyświetlanych na wyświetlaczu LCD. Przycisków łącznie jest 36. Czasami program wymaga od nas naciśnięcia odpowiednich przycisków, a czasem dowolnego w celu kontynuowania.
