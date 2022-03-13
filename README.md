@@ -45,6 +45,7 @@ Klawiatura matrycowa składa się z 36 przycisków, do każdego przycisku przypo
 ![schemat-montazowy](https://github.com/Wojwos/VisualMemory/blob/main/img/board.jpg?raw=true)
 
 **Lista elementów:**
+
 Elementy na płytce PCB:
 - Atmega328P-PU
 - wyświetlacz LCD 16x2
