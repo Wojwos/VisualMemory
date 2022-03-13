@@ -38,7 +38,9 @@ Podstawowe elementy jakie muszą znaleźć się w układzie:
 ![schemat-ideowy](https://github.com/Wojwos/VisualMemory/blob/main/img/schematic.jpg?raw=true)
 
 **Opis funkcji poszczególnych bloków układu, szczegółowy opis działania ważniejszych elementów układu**
-Klawiatura matrycowa składa się z 36 przycisków, do każdego przycisku przyporządkowana dioda LED. Klawiatura podłączona do reszty urządzenia z wyświetlaczem LCD, na którym wyświetlone są wszystkie informacje.
+Klawiatura matrycowa składa się z 36 przycisków, do każdego przycisku przyporządkowane dwie diody LED, ponieważ są gęsto rozstawione na pasku WS2812B. Klawiatura podłączona do reszty urządzenia z wyświetlaczem LCD, na którym wyświetlone są wszystkie informacje.
+
+![dot-pcb](https://github.com/Wojwos/VisualMemory/blob/main/img/dot-pcb.jpg?raw=true)
 
 **Schemat montażowy obejmujący projekt płytki drukowanej, rozmieszczenie elementów na płytce oraz rozmieszczenie elementów urządzenia w obudowie**
 
@@ -89,3 +91,17 @@ Układ scalony znajduje się w skrzynce z wbudowanym wyświetlaczem LCD, klawiat
 
 **Opis sposobu programowania układu**
 Oprogramowanie zostało stworzone w Arduino IDE z wykorzystaniem bibliotek obsługujących klawiaturę matrycową, wyświetlacz LCD oraz diody LED ws2812b.
+
+### Działanie
+
+![test1](https://github.com/Wojwos/VisualMemory/blob/main/img/test1.jpg?raw=true)
+
+![test2](https://github.com/Wojwos/VisualMemory/blob/main/img/test2.jpg?raw=true)
+
+![test3](https://github.com/Wojwos/VisualMemory/blob/main/img/test3.jpg?raw=true)
+
+![test4](https://github.com/Wojwos/VisualMemory/blob/main/img/test4.jpg?raw=true)
+
+![test5](https://github.com/Wojwos/VisualMemory/blob/main/img/test5.jpg?raw=true)
+
+![test6](https://github.com/Wojwos/VisualMemory/blob/main/img/test6.jpg?raw=true)
